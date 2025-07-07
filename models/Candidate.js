@@ -31,3 +31,8 @@ const CandidateSchema=new mongoose.Schema({
         default:0
     }
 })
+
+
+const Candidate=mongoose.model('User',CandidateSchema);
+
+module.exports=Candidate;
